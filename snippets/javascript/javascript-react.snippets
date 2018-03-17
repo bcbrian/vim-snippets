@@ -70,9 +70,9 @@ snippet ren
 		);
 	}
 snippet sst
-	this.setState({
+	this.setState(() => ({
 		${1}: ${2}
-	});
+	}));
 snippet scu
 	shouldComponentUpdate(nextProps, nextState) {
 		${1}
